@@ -30,7 +30,8 @@ app.add_middleware(
 )
 
 # Load Model
-model = load_model("../models/brain_tumor_multiclass.keras")
+# model = load_model("../models/brain_tumor_multiclass.keras")
+model = None
 print("BUILT:", model.built)
 
 try:

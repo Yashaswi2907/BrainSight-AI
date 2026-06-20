@@ -28,7 +28,7 @@ dataset/
 
 
 # Trained models
-models/
+# models/
 
 # Python virtual env
 venv/
