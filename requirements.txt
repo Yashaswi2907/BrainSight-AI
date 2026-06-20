@@ -3,6 +3,7 @@ uvicorn
 python-multipart
 numpy
 opencv-python-headless
-tensorflow
+tensorflow==2.20.0
+keras==3.10.0
 reportlab
 matplotlib
