@@ -78,7 +78,17 @@ PDF Report Generation
 
 ## 📷 Screenshots
 
-Screenshots coming soon.
+### Home Page
+![Home](screenshots/home-page.png)
+
+### MRI Upload
+![Upload](screenshots/upload-page.png)
+
+### Prediction Result
+![Prediction](screenshots/prediction-result.png)
+
+### PDF Report
+![Report](screenshots/pdf-report.png)
 
 ---
 
