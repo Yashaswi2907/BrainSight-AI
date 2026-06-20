@@ -30,21 +30,21 @@ app.add_middleware(
 )
 
 # Load Model
-# model = load_model("../models/brain_tumor_multiclass.keras")
-model = None
-print("BUILT:", model.built)
+model = load_model("../models/brain_tumor_multiclass.keras")
+# model = None
+# print("BUILT:", model.built)
 
-try:
-    print("INPUT:", model.input)
-except Exception as e:
-    print("INPUT ERROR:", e)
+# try:
+#    print("INPUT:", model.input)
+# except Exception as e:
+#    print("INPUT ERROR:", e)
 
-try:
-    print("OUTPUT:", model.output)
-except Exception as e:
-    print("OUTPUT ERROR:", e)
+# try:
+#    print("OUTPUT:", model.output)
+# except Exception as e:
+#    print("OUTPUT ERROR:", e)
 
-model.build((None, 224, 224, 3))
+# model.build((None, 224, 224, 3))
 # Class Names
 classes = [
     "Glioma",
