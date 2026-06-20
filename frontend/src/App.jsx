@@ -28,13 +28,13 @@ formData.append("file", file);
 
 try {
   const response = await axios.post(
-    "http://127.0.0.1:8000/predict",
+    "https://brainsight-ai-1.onrender.com/predict",
     formData
   );
 
   setResult(response.data);
   /*const gradcamResponse = await axios.post(
-  "http://127.0.0.1:8000/gradcam",
+  "https://brainsight-ai-1.onrender.com/gradcam",
   formData,
   {
     responseType: "blob",
@@ -87,7 +87,7 @@ formData.append(
 );
 
     const response = await axios.post(
-      "http://127.0.0.1:8000/generate-report",
+      "https://brainsight-ai-1.onrender.com/generate-report",
       formData,
       {
         responseType: "blob",
